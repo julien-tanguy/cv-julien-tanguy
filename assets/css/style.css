@@ -1,0 +1,298 @@
+/*--------------------------------------------------------------------------------NAVBAR-ANIMATED---------------------------------------------------------------------*/
+.animated-icon1, .animated-icon2, .animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+.animated-icon1 span {
+    background: #ffffff;
+}
+.animated-icon2 span {
+    background: #ffffff;
+}
+.animated-icon3 span {
+    background: #ffffff;
+}
+.animated-icon1 span:nth-child(1) {
+    top: 0px;
+}
+.animated-icon1 span:nth-child(2) {
+    top: 10px;
+}
+.animated-icon1 span:nth-child(3) {
+    top: 20px;
+}
+.animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+.animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+.animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+/*--------------------------------------------------------------------------------BODY----------------------------------------------------------------------*/
+body {
+    background-color: #191919;
+    font-family: "avenir", arial, sans-serif;
+}
+/*--------------------------------------------------------------------------------NAVBAR----------------------------------------------------------------------*/
+#navbar {
+    background-color: #000000;
+    position: fixed;
+    z-index: 99;
+}
+#button_mail {
+    padding: 0 3px 3px 3px;
+    margin-top: 7px;
+    border-radius: 15px;
+}
+.nav-item a {
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration:none;
+}
+/*--------------------------------------------------------------------------------SECTIONS----------------------------------------------------------------------*/
+#slide1 {
+    background: #000000 center 0 no-repeat fixed;
+    margin-top: 70px;
+    width: 100%;
+    height: 940px;
+}
+#slide2 {
+    background: url(../img/macbook_background.jpg) center 0 no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+#slide3 {
+    background: url(../img/code_js.jpg) center 0 no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+}
+/*--------------------------------------------------------------------------------SLIDE1----------------------------------------------------------------------*/
+#identity {
+    margin: 30px 0 30px 0;
+}
+#identity p {
+    font-size: 17px;
+    color: #ffffff;
+}
+#slide1 h1 {
+    margin-top: 20px;
+    font-size: 38px;
+    color: #ffffff;
+}
+#identity h3 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#slide1 img {
+    width: 230px;
+    height: auto;
+    border-radius: 20px;
+}
+/*--------------------------------------------------------------------------------SLIDE2----------------------------------------------------------------------*/
+#slide2 p {
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 9px;
+    margin-top: 30px;
+    font-size: 17px;
+    color: #ffffff;
+}
+/*--------------------------------------------------------------------------------SLIDE3----------------------------------------------------------------------*/
+#slide3 p {
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 9px;
+    margin-top: 100px;
+    font-size: 22px;
+    color: #ffffff;
+}
+#slide3 img {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 3px;
+}
+/*--------------------------------------------------------------------------------SECTION2----------------------------------------------------------------------*/
+#scrollHtml h2, #scrollJs h2, #scrollPhp h2 {
+    font-size: 34px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+#scrollHtml p, #scrollJs p, #scrollPhp p{
+    font-size: 22px;
+    margin-top: 40px;
+    color: #ffffff;
+} 
+#scrollHtml, #scrollJs, #scrollPhp {
+    color : #ffffff;
+    /* position: absolute; */
+    background: #000000;
+    margin-top: 10px;
+    width: 100%;
+    height: 850px;
+}
+#scrollHtml img, #scrollJs img, #scrollPhp img{
+    margin-top: 150px;
+    width: 350px;
+    height: 202px;
+}
+/*--------------------------------------------------------------------------------SECTION3----------------------------------------------------------------------*/
+#section_3 {
+    background: #ffffff;
+    height: 600px;
+    margin-top: 10px;
+}
+#section_3 img {
+    width: 300px;
+    margin-top: 50px;
+    height: 105px;
+}
+#section_3 p {
+    font-size: 22px;
+    margin-top: 50px;
+}
+#section_3  h2 {
+    font-size: 34px;
+    margin-top: 40px;
+}
+/*--------------------------------------------------------------------------------SECTION4----------------------------------------------------------------------*/
+#section_4 {
+    margin-top: 10px;
+    background-color: #000000;
+}
+#section_4 p {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+#section_4 img {
+    width: 100%;
+}
+/*--------------------------------------------------------------------------------SECTION5----------------------------------------------------------------------*/
+#section_5 {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+#section_5 a {
+    color: #ffffff;
+}
+#section_5 img {
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+}
+#section_5 h1, #section_5 h2 {
+    margin-top: 40px;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+#section_5 p {
+    margin-top: 20px;
+    font-size: 22px;
+    color: dimgrey;
+}
+@media screen and (min-width: 992px) {
+    #section_5 img {
+        display: block;
+    }
+}
+@media screen and (min-width: 768px) { 
+    #slide1, #slide2, #slide3  {
+        height: 1000px;
+    }
+    #slide1 h1 {
+        margin-top: 40px;
+        font-size: 48px;
+    }
+    #slide1 p {
+        font-size: 22px;
+    }
+    #identity, #slide1 img {
+        margin: 30px 0 100px 0;
+    }
+    #slide2 p {
+        margin-top: 100px;
+        font-size: 22px;
+    }
+    #slide3 p {
+        margin-top: 120px;
+        font-size: 22px;
+        margin-bottom: 100px;
+    }
+    #slide3 img {
+        margin: 0 auto;
+        width: 70%;
+    }
+    #scrollHtml img, #scrollJs img, #scrollPhp img{
+        width: 600px;
+        height: 347px;
+    }
+    #scrollHtml p, #scrollJs p, #scrollPhp p{
+        font-size: 22px;
+        margin-top: 150px;
+        color: #ffffff;
+    }
+    #section_3 img {
+        width: 600px;
+        margin-top: 50px;
+        height: 180px;
+    }
+    #section_3 p {
+        margin-top: 80px;
+        padding: 0 80px 0 80px;
+    }
+
+}
+/*--------------------------------------------------------------------------------SECTION6----------------------------------------------------------------------*/
+#footer {
+    margin-top: 10px;
+    background-color: dimgrey;
+}
+#footer p {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 15px;
+}
