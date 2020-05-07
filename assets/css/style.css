@@ -96,13 +96,13 @@ body {
     height: 940px;
 }
 #slide2 {
-    background: url(../img/macbook_background.jpg) center 0 no-repeat fixed;
+    background: url(../img/macbook-background.jpg) center 0 no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 1000px;
 }
 #slide3 {
-    background: url(../img/code_js.jpg) center 0 no-repeat fixed;
+    background: url(../img/code-js.jpg) center 0 no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 850px;
@@ -158,7 +158,18 @@ body {
 #scrollHtml h2, #scrollJs h2, #scrollPhp h2 {
     font-size: 34px;
     margin-top: 40px;
-    color: #ffffff;
+}
+.imageTitle {
+    height: 200px;
+}
+.htmlTitle {
+    color: #E44D26;
+}
+.jsTitle {
+    color: #F7DF1E;
+}
+.phpTitle {
+    color: #777BB3;
 }
 #scrollHtml p, #scrollJs p, #scrollPhp p{
     font-size: 22px;
@@ -173,7 +184,7 @@ body {
     width: 100%;
     height: 850px;
 }
-#scrollHtml img, #scrollJs img, #scrollPhp img{
+.desktopImage{
     margin-top: 150px;
     width: 350px;
     height: 202px;
@@ -200,12 +211,16 @@ body {
 /*--------------------------------------------------------------------------------SECTION4----------------------------------------------------------------------*/
 #section_4 {
     margin-top: 10px;
-    background-color: #000000;
+    background: url(../img/teamWork.jpg);
+    background-size: cover;
+}
+#workDescription {
+    background: rgba(255,255,255,0.70);
 }
 #section_4 p {
-    color: #ffffff;
+    color: #000000;
     font-size: 22px;
-    margin-bottom: 0;
+    margin: 20px 5px 20px 5px;
 }
 #section_4 img {
     width: 100%;
@@ -216,27 +231,29 @@ body {
     padding-bottom: 15px;
     background-color: #ffffff;
 }
-#section_5 a {
-    color: #ffffff;
-}
 #section_5 img {
     width: 100%;
     margin: 0 auto;
-    display: none;
 }
-#section_5 h1, #section_5 h2 {
+#section_5 h1 {
     margin-top: 40px;
     font-size: 34px;
     margin-bottom: 20px;
 }
 #section_5 p {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 20px;
     color: dimgrey;
 }
 @media screen and (min-width: 992px) {
-    #section_5 img {
-        display: block;
+    #identity p:first-of-type, #slide1 img {
+        margin: 130px 0 100px 0;
+    }
+    .desktopImage{
+        margin-top: 150px !important;
+    }
+    #scrollHtml p, #scrollJs p, #scrollPhp p{
+        margin-top: 150px !important;
     }
 }
 @media screen and (min-width: 768px) { 
@@ -250,8 +267,11 @@ body {
     #slide1 p {
         font-size: 22px;
     }
-    #identity, #slide1 img {
-        margin: 30px 0 100px 0;
+    #identity {
+        margin: 30px 0 50px 0;
+    }
+    #identity p {
+        padding: 0 10px 0 10px  !important;
     }
     #slide2 p {
         margin-top: 100px;
@@ -266,14 +286,18 @@ body {
         margin: 0 auto;
         width: 70%;
     }
-    #scrollHtml img, #scrollJs img, #scrollPhp img{
+    .desktopImage{
         width: 600px;
         height: 347px;
+        margin-top: 50px;
     }
     #scrollHtml p, #scrollJs p, #scrollPhp p{
         font-size: 22px;
-        margin-top: 150px;
+        margin-top: 50px;
         color: #ffffff;
+    }
+    #identity p {
+        padding-left: 40px;
     }
     #section_3 img {
         width: 600px;
@@ -296,3 +320,4 @@ body {
     color: #ffffff;
     font-size: 15px;
 }
+/**/
