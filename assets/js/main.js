@@ -35,3 +35,17 @@ $(document).ready(function () {
       document.querySelectorAll('.reveal').forEach(function (r) {
         observer.observe(r);
       });
+
+
+    //            //change the opacity for different browsers
+    // function changeOpac(opacity, id) {
+    //   var object = document.getElementById('slide2').style;
+    //   object.opacity = Math.sin(opacity / 100);
+    //   object.MozOpacity = Math.sin(opacity / 100);
+    //   object.KhtmlOpacity = Math.sin(opacity / 100);
+    //   object.filter = "alpha(opacity=" + opacity + ")";
+    //   } 
+    
+    
+        
+    
