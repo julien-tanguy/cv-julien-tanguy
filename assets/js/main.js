@@ -36,7 +36,7 @@ $(document).ready(function () {
         observer.observe(r);
       });
 
-
+      //test pour skide
     //            //change the opacity for different browsers
     // function changeOpac(opacity, id) {
     //   var object = document.getElementById('slide2').style;
@@ -46,6 +46,10 @@ $(document).ready(function () {
     //   object.filter = "alpha(opacity=" + opacity + ")";
     //   } 
     
-    
+    // document.addEventListener('DOMContentLoaded', function() {
+    //   window.onscroll = function(ev) {
+    //     document.getElementById("scrollHtml").className = (window.pageYOffset > 100) ? "cInvisible" : "cVisible";
+    //   };
+    // });
         
     
