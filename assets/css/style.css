@@ -179,7 +179,6 @@ body {
 } 
 #scrollHtml, #scrollJs, #scrollPhp {
     color : #ffffff;
-    /* position: absolute; */
     background: #000000;
     margin-top: 10px;
     width: 100%;
@@ -260,19 +259,16 @@ body {
         background: #000000 center 0 no-repeat fixed;
         margin-top: 70px;
         width: 100%;
-        /* height: 940px; */
     }
     #slide2 {
         background: url(../img/macbook-background.jpg) center 0 no-repeat fixed;
         background-size: cover;
         width: 100%;
-        /* height: 1000px; */
     }
     #slide3 {
         background: url(../img/code-js.jpg) center 0 no-repeat fixed;
         background-size: cover;
         width: 100%;
-        /* height: 850px; */
     }
 }
 @media screen and (min-width: 768px) { 
@@ -339,19 +335,10 @@ body {
 .reveal {
     opacity: 0;
     transform: translateY(-100px);
-  }
-  .reveal-visible {
+}
+.reveal-visible {
     opacity: 1;
     transform: translateY(0);
     transition: 3s;
-  }
+}
 
-
-
-
-  /* .cVisible {
-      opacity: 1;
-  }
-  .cIncvisible {
-    opacity: 0;
-} */

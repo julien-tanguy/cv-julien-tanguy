@@ -25,7 +25,6 @@ $(document).ready(function () {
       const handleIntersect = function (entries, observer) {
         entries.forEach(function (entry) {
           if (entry.intersectionRatio > ratio) {
-            console.log(entry.target);
             entry.target.classList.add('reveal-visible');
             observer.unobserve(entry.target);
           }
@@ -35,8 +34,8 @@ $(document).ready(function () {
       document.querySelectorAll('.reveal').forEach(function (r) {
         observer.observe(r);
       });
-
-      //test pour skide
+    //------------------------------------------------------------------------------------------
+      //test pour slide
     //            //change the opacity for different browsers
     // function changeOpac(opacity, id) {
     //   var object = document.getElementById('slide2').style;
@@ -51,5 +50,16 @@ $(document).ready(function () {
     //     document.getElementById("scrollHtml").className = (window.pageYOffset > 100) ? "cInvisible" : "cVisible";
     //   };
     // });
-        
+      //------------------------------------------------------------------------------------------
+    // var html = document.getElementById('scrollHtml');
+    // var javascript = document.getElementById('scrollJs');
+    // var php = document.getElementById('scrollPhp');
+    // // var height = htmltest.clientHeight;
+
+    // window.addEventListener('scroll', function () {
+    //   if (window.scrollY > document.getElementById('scrollHtml').clientHeight) {
+    //     console.log('test 1');
+    //   }
+    // })
+    //------------------------------------------------------------------------------------------
     
