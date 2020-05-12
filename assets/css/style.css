@@ -108,13 +108,17 @@ body {
 #identity {
     margin: 30px 0 30px 0;
 }
+#identity #info-indentity {
+    font-size: 15px;
+    color: #696969;
+}
 #identity p {
     font-size: 17px;
     color: #ffffff;
 }
 #slide1 h1 {
     margin-top: 20px;
-    font-size: 38px;
+    font-size: 22px;
     color: #ffffff;
 }
 #identity h3 {
@@ -246,8 +250,11 @@ body {
     color: dimgrey;
 }
 @media screen and (min-width: 1370px) {
-    #identity p:first-of-type, #slide1 img {
-        margin: 130px 0 100px 0;
+    #identity p:first-of-type {
+        margin: 130px 0 50px 0;
+    }
+    #slide1 img {
+        margin: 160px 0 500px 0;
     }
     .desktopImage{
         margin-top: 150px !important;
@@ -274,7 +281,7 @@ body {
 @media screen and (min-width: 768px) { 
     #slide1 h1 {
         margin-top: 40px;
-        font-size: 48px;
+        font-size: 43px;
     }
     #slide1 p {
         font-size: 22px;
@@ -332,6 +339,7 @@ body {
     font-size: 15px;
 }
 /*--------------------------------------------------------------------------------animated----------------------------------------------------------------------*/
+/*reveal effet*/
 .reveal {
     opacity: 0;
     transform: translateY(-100px);
@@ -341,4 +349,22 @@ body {
     transform: translateY(0);
     transition: 3s;
 }
+/*cursor*/
+#autotext {
+    border-right: 0.15em solid #007BFF;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+}
 
+/* blink (clignotement) */
+@keyframes blink {
+    /* from to, tu va DE (from) À (to), ne pas donner de valeur a from done l'effet de clignotement.*/
+    from,
+    to {
+        border-color: transparent;
+    }
+    /* a 50% de l'animation, change la couleur de la bordure.*/
+    50% {
+        border-color: #007BFF;
+    }
+}
