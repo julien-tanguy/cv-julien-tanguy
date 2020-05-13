@@ -88,7 +88,7 @@ body {
     font-size: 17px;
     text-decoration:none;
 }
-/*--------------------------------------------------------------------------------SECTIONS----------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------SECTIONS PRESENTATION----------------------------------------------------------------------*/
 #slide1 {
     background: #000000 center 0 no-repeat;
     margin-top: 70px;
@@ -159,7 +159,7 @@ body {
     width: 80%;
     border-radius: 3px;
 }
-/*--------------------------------------------------------------------------------SECTION2----------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------SECTION COMPETENCES----------------------------------------------------------------------*/
 #scrollHtml h2, #scrollJs h2, #scrollPhp h2 {
     font-size: 34px;
     margin-top: 40px;
@@ -193,27 +193,27 @@ body {
     width: 350px;
     height: 202px;
 }
-/*--------------------------------------------------------------------------------SECTION3----------------------------------------------------------------------*/
-#section_3 {
+/*--------------------------------------------------------------------------------SECTION RESPONSIVE----------------------------------------------------------------------*/
+#responsive {
     background: #ffffff;
     height: 600px;
     margin-top: 10px;
 }
-#section_3 img {
+#responsive img {
     width: 300px;
     margin-top: 50px;
     height: 105px;
 }
-#section_3 p {
+#responsive p {
     font-size: 22px;
     margin-top: 50px;
 }
-#section_3  h2 {
+#responsive h2 {
     font-size: 34px;
     margin-top: 40px;
 }
-/*--------------------------------------------------------------------------------SECTION4----------------------------------------------------------------------*/
-#section_4 {
+/*--------------------------------------------------------------------------------SECTION WORK----------------------------------------------------------------------*/
+#work {
     margin-top: 10px;
     background: url(../img/teamWork.jpg);
     background-size: cover;
@@ -221,30 +221,30 @@ body {
 #workDescription {
     background: rgba(255,255,255,0.70);
 }
-#section_4 p {
+#work p {
     color: #000000;
     font-size: 22px;
     margin: 20px 5px 20px 5px;
 }
-#section_4 img {
+#work img {
     width: 100%;
 }
-/*--------------------------------------------------------------------------------SECTION5----------------------------------------------------------------------*/
-#section_5 {
+/*--------------------------------------------------------------------------------SECTION PROJETS----------------------------------------------------------------------*/
+#projets {
     margin-top: 10px;
     padding-bottom: 15px;
     background-color: #ffffff;
 }
-#section_5 img {
+#projets img {
     width: 100%;
     margin: 0 auto;
 }
-#section_5 h1 {
+#projets h1 {
     margin-top: 40px;
     font-size: 34px;
     margin-bottom: 20px;
 }
-#section_5 p {
+#projets p {
     margin-top: 20px;
     font-size: 20px;
     color: dimgrey;
@@ -320,12 +320,12 @@ body {
     #identity p {
         padding-left: 40px;
     }
-    #section_3 img {
+    #responsive img {
         width: 600px;
         margin-top: 50px;
         height: 180px;
     }
-    #section_3 p {
+    #responsive p {
         margin-top: 80px;
         padding: 0 80px 0 80px;
     }
