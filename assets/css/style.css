@@ -134,12 +134,15 @@ body {
     border-radius: 20px;
 }
 /*--------------------------------------------------------------------------------SLIDE2----------------------------------------------------------------------*/
-#slide2 p {
-    border-radius: 9px;
+#slide2 h1 {
     margin-top: 40px;
     margin-bottom: 50px;
-    font-size: 17px;
+    font-size: 25px;
     color: #000000;
+}
+#slide2 i {
+    margin-bottom: 20px;
+    padding: 0;
 }
 .opaFiltre {
     background: rgba(255,255,255,0.4);
@@ -147,34 +150,13 @@ body {
 .opaFiltre2 {
     background: rgba(0,0,0,0.4);
 }
-/*--------------------------------------------------------------------------------SLIDE3----------------------------------------------------------------------*/
-#slide3 p {
-    border-radius: 9px;
-    margin-top: 100px;
-    font-size: 22px;
-    color: #ffffff;
-}
-#slide3 img {
-    margin: 0 auto 50px auto;
-    width: 80%;
-    border-radius: 3px;
-}
 /*--------------------------------------------------------------------------------SECTION COMPETENCES----------------------------------------------------------------------*/
-#scrollHtml h2, #scrollJs h2, #scrollPhp h2 {
-    font-size: 34px;
-    margin-top: 40px;
-}
 .imageTitle {
     height: 200px;
 }
-.htmlTitle {
-    color: #E44D26;
-}
-.jsTitle {
-    color: #F7DF1E;
-}
-.phpTitle {
-    color: #777BB3;
+.titlejs {
+   color: yellow;
+   margin-top: 40px;
 }
 #scrollHtml p, #scrollJs p, #scrollPhp p{
     font-size: 22px;
@@ -251,10 +233,10 @@ body {
 }
 @media screen and (min-width: 1370px) {
     #identity p:first-of-type {
-        margin: 130px 0 50px 0;
+        margin: 60px 0 40px 0;
     }
     #slide1 img {
-        margin: 160px 0 500px 0 !important;
+        margin: 160px 0 300px 0 !important;
     }
     .desktopImage{
         margin-top: 150px !important;
@@ -269,11 +251,6 @@ body {
     }
     #slide2 {
         background: url(../img/macbook-background.jpg) center 0 no-repeat fixed;
-        background-size: cover;
-        width: 100%;
-    }
-    #slide3 {
-        background: url(../img/code-js.jpg) center 0 no-repeat fixed;
         background-size: cover;
         width: 100%;
     }
@@ -294,18 +271,17 @@ body {
     }
     #slide1 img {
         margin-top: 40px;
-    }
-    #slide2 p {
-        margin-top: 100px;
-        font-size: 22px;
-    }
-    #slide3 p {
-        margin-top: 120px;
-        font-size: 22px;
-        margin-bottom: 100px;
-    }
-    #slide3 img {
         width: 70%;
+    }
+    #slide2 h1 {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        font-size: 35px;
+        color: #000000;
+    }
+    #slide2 i {
+        margin-bottom: 120px;
+        padding: 0;
     }
     .desktopImage{
         width: 600px;
@@ -368,6 +344,6 @@ body {
     }
     /* a 50% de l'animation, change la couleur de la bordure.*/
     50% {
-        border-color: #007BFF;
+        border-color: #2e2e2e;
     }
 }
