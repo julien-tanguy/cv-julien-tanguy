@@ -330,7 +330,7 @@ body {
 }
 /*cursor*/
 #autotext {
-    border-right: 0.15em solid #007BFF;
+    border-right: 0.15em solid #2e2e2e;
     letter-spacing: 0.05em;
     animation: blink 0.75s step-end infinite;
 }

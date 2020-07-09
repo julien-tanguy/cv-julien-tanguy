@@ -24,7 +24,7 @@ const ratio = 0.9;
   });
 //----------------------------------------EFFET-ECRITURE--------------------------------------------------
 const title = document.getElementById('autotext');
-const text = 'julien Tanguy, developpeur web';
+const text = 'Julien Tanguy, Développeur Web.';
 let index = 0;
 function play () {
     title.innerHTML = text.slice(0, index);
@@ -36,22 +36,4 @@ function play () {
 }
 // setInterval permet d'appeller une fonction tout les x interval
 // ici tout les 300 ms, la fonction play est relancé
-let timer = setInterval(play, 300);
-//----------------------------------------COMPETENCES-------------------------------------------------- 
-// window.onscroll = function(){
-//   var competenceList = document.getElementsByClassName('competence');
-//   var index = parseInt(window.pageYOffset / 50);
-//       if(index < paragraphList.length){
-//           competenceList[index].style.display = 'block';
-//       }
-// }
-// window.onscroll = function(){
-//   var html = document.getElementById('scrollHtml');
-//   var php = document.getElementById('scrollPhp');
-//   var js = document.getElementById('scrollJs');
-//   if (window.pageYOffset > 2000) {
-//     html.style.display = 'none';
-//   }else {
-//     html.style.display = 'block';
-//   }
-// }
+let timer = setInterval(play, 100);
