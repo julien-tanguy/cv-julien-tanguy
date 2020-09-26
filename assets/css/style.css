@@ -164,7 +164,6 @@ body {
     color: #ffffff;
 } 
 #scrollHtml, #scrollJs, #scrollPhp {
-    color : #ffffff;
     background: #000000;
     margin-top: 10px;
     width: 100%;
